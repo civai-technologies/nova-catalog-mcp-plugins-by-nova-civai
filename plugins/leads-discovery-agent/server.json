@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/leads-discovery-agent",
+  "title": "Leads Discovery Agent by Nova (CIVAI)",
+  "description": "I discover new leads from WhatsApp/Telegram groups, Instagram post commenters, and X thread replier…",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/leads-discovery-agent"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/leads-discovery-agent",
+  "icons": [
+    {
+      "src": "https://nova.civai.co/catalog-icons/NoteIcon.svg"
+    }
+  ]
+}

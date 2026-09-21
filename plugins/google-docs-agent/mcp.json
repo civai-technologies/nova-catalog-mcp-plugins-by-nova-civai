@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "google-docs-agent-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/google-docs-agent",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

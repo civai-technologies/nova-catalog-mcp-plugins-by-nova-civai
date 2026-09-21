@@ -1,0 +1,123 @@
+{
+  "name": "nova-by-civai",
+  "owner": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co"
+  },
+  "metadata": {
+    "description": "Official Nova by CIVAI catalog MCP plugins for Cursor (22 remote Streamable HTTP agents).",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "blogger-agent-by-nova",
+      "source": "./plugins/blogger-agent",
+      "description": "I do everything related to Google Blogger content"
+    },
+    {
+      "name": "browsergpt-agent-by-nova",
+      "source": "./plugins/browsergpt-agent",
+      "description": "I do everything related to Browser Automation & Management"
+    },
+    {
+      "name": "calendar-agent-by-nova",
+      "source": "./plugins/calendar-agent",
+      "description": "I do everything related to calendar scheduling"
+    },
+    {
+      "name": "code-interpreter-agent-by-nova",
+      "source": "./plugins/code-interpreter-agent",
+      "description": "I do everything related to coding and execution tasks"
+    },
+    {
+      "name": "content-calendar-agent-by-nova",
+      "source": "./plugins/content-calendar-agent",
+      "description": "I create markdown content calendars and export them as PDFs via PDF Generator MCP"
+    },
+    {
+      "name": "gmail-agent-by-nova",
+      "source": "./plugins/gmail-agent",
+      "description": "I do everything related to Gmail and productivity"
+    },
+    {
+      "name": "google-docs-agent-by-nova",
+      "source": "./plugins/google-docs-agent",
+      "description": "I do everything related to Google Docs"
+    },
+    {
+      "name": "google-sheets-agent-by-nova",
+      "source": "./plugins/google-sheets-agent",
+      "description": "I do everything related to Google Sheets"
+    },
+    {
+      "name": "instagram-web-agent-by-nova",
+      "source": "./plugins/instagram-web-agent",
+      "description": "I use your Instagram Web browser session (Integrations \u2192 Instagram Web) via instagrapi, not Meta / Graph API"
+    },
+    {
+      "name": "interviewer-agent-by-nova",
+      "source": "./plugins/interviewer-agent",
+      "description": "I do everything related to interviews and structured Q&A"
+    },
+    {
+      "name": "leads-discovery-agent-by-nova",
+      "source": "./plugins/leads-discovery-agent",
+      "description": "I discover new leads from WhatsApp/Telegram groups, Instagram post commenters, and X thread repliers, then import them into your Support Agent CRM"
+    },
+    {
+      "name": "music-agent-by-nova",
+      "source": "./plugins/music-agent",
+      "description": "I do everything related to music and lyrics"
+    },
+    {
+      "name": "nova-inbox-agent-by-nova",
+      "source": "./plugins/nova-inbox-agent",
+      "description": "Read and send mail from your Nova Inbox (@nova.civai.co) for OTPs, directory signups, and inbound messages"
+    },
+    {
+      "name": "openclaw-agent-by-nova",
+      "source": "./plugins/openclaw-agent",
+      "description": "I execute requests through OpenClaw as a personal AI agent with persistent context, browser and shell tools, web access, messaging, sessions, and plugin/skill extensions"
+    },
+    {
+      "name": "pdf-agent-by-nova",
+      "source": "./plugins/pdf-agent",
+      "description": "I create PDF documents from markdown, preview, then generate a downloadable file"
+    },
+    {
+      "name": "research-agent-by-nova",
+      "source": "./plugins/research-agent",
+      "description": "I do everything related to research and reports"
+    },
+    {
+      "name": "slidegen-agent-by-nova",
+      "source": "./plugins/slidegen-agent",
+      "description": "I do everything related to image and slide asset generation"
+    },
+    {
+      "name": "support-agent-admin-by-nova",
+      "source": "./plugins/support-agent-admin",
+      "description": "I manage your Support Agent CRM, pipeline analytics, follow-ups, Leads Discovery, and workspace output (Sheets, Docs, Calendar, research)"
+    },
+    {
+      "name": "telegram-agent-by-nova",
+      "source": "./plugins/telegram-agent",
+      "description": "I use your linked Telegram MTProto session (Integrations \u2192 Telegram) to list groups, members, and send DMs"
+    },
+    {
+      "name": "terminal-command-agent-by-nova",
+      "source": "./plugins/terminal-command-agent",
+      "description": "I run shell commands on your private cloud environment (bash, sh, zsh)"
+    },
+    {
+      "name": "twitter-agent-by-nova",
+      "source": "./plugins/twitter-agent",
+      "description": "I do everything related to Twitter posting and campaigns"
+    },
+    {
+      "name": "whatsapp-web-agent-by-nova",
+      "source": "./plugins/whatsapp-web-agent",
+      "description": "I send and manage WhatsApp Web messages through your linked session"
+    }
+  ]
+}

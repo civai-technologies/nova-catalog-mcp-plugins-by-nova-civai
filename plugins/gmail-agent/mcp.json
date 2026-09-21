@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "gmail-agent-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/gmail-agent",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

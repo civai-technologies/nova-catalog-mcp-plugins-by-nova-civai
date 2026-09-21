@@ -1,0 +1,39 @@
+{
+  "name": "nova-inbox-agent-by-nova",
+  "version": "1.1.0",
+  "description": "Read and send mail from your Nova Inbox (@nova.civai.co) for OTPs, directory signups, and inbound messages",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/nova-inbox-agent",
+  "repository": "https://github.com/civai-technologies/email-inbox-agent-mcp-by-nova-civai",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "mcp",
+    "nova-by-civai",
+    "civai",
+    "cursor",
+    "mcp-server",
+    "email-inbox",
+    "nova-inbox",
+    "email",
+    "otp",
+    "directory-signup",
+    "inbound-mail"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "NOVA_API_KEY": {
+        "type": "string",
+        "title": "Nova API key",
+        "description": "Programmatic JWT from https://nova.civai.co/api-keys"
+      }
+    },
+    "required": [
+      "NOVA_API_KEY"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/whatsapp-web-agent",
+  "title": "WhatsApp Web Agent by Nova (CIVAI)",
+  "description": "I send and manage WhatsApp Web messages through your linked session",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/whatsapp-web-agent"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/whatsapp-web-agent",
+  "icons": [
+    {
+      "src": "https://nova.civai.co/catalog-icons/WhatsAppWebIcon.svg"
+    }
+  ]
+}

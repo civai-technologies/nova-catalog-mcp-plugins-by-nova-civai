@@ -1,0 +1,36 @@
+{
+  "name": "twitter-agent-by-nova",
+  "version": "1.0.0",
+  "description": "I do everything related to Twitter posting and campaigns",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/twitter-agent",
+  "repository": "https://github.com/civai-technologies/twitter-agent-mcp-by-nova-civai",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "mcp",
+    "nova-by-civai",
+    "civai",
+    "cursor",
+    "mcp-server",
+    "twitter",
+    "x-com",
+    "social-media"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "NOVA_API_KEY": {
+        "type": "string",
+        "title": "Nova API key",
+        "description": "Programmatic JWT from https://nova.civai.co/api-keys"
+      }
+    },
+    "required": [
+      "NOVA_API_KEY"
+    ]
+  }
+}

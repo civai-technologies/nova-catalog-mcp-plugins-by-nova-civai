@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/research-agent",
+  "title": "Research Agent by Nova (CIVAI)",
+  "description": "I do everything related to research and reports",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/research-agent"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/research-agent",
+  "icons": [
+    {
+      "src": "https://nova.civai.co/catalog-icons/FireIcon.svg"
+    }
+  ]
+}

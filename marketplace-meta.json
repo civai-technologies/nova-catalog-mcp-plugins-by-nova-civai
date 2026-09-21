@@ -1,0 +1,29 @@
+{
+  "repo": "nova-catalog-mcp-plugins-by-nova-civai",
+  "github_url": "https://github.com/civai-technologies/nova-catalog-mcp-plugins-by-nova-civai",
+  "plugin_count": 22,
+  "slugs": [
+    "blogger-agent",
+    "browsergpt-agent",
+    "calendar-agent",
+    "code-interpreter-agent",
+    "content-calendar-agent",
+    "gmail-agent",
+    "google-docs-agent",
+    "google-sheets-agent",
+    "instagram-web-agent",
+    "interviewer-agent",
+    "leads-discovery-agent",
+    "music-agent",
+    "nova-inbox-agent",
+    "openclaw-agent",
+    "pdf-agent",
+    "research-agent",
+    "slidegen-agent",
+    "support-agent-admin",
+    "telegram-agent",
+    "terminal-command-agent",
+    "twitter-agent",
+    "whatsapp-web-agent"
+  ]
+}

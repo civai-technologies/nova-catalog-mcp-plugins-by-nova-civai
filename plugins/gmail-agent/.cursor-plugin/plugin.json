@@ -1,0 +1,37 @@
+{
+  "name": "gmail-agent-by-nova",
+  "version": "1.0.0",
+  "description": "I do everything related to Gmail and productivity",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/gmail-agent",
+  "repository": "https://github.com/civai-technologies/gmail-agent-mcp-by-nova-civai",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "mcp",
+    "nova-by-civai",
+    "civai",
+    "cursor",
+    "mcp-server",
+    "gmail",
+    "email",
+    "google-mail",
+    "productivity"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "NOVA_API_KEY": {
+        "type": "string",
+        "title": "Nova API key",
+        "description": "Programmatic JWT from https://nova.civai.co/api-keys"
+      }
+    },
+    "required": [
+      "NOVA_API_KEY"
+    ]
+  }
+}

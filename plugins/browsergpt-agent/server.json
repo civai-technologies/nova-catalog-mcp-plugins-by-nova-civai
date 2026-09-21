@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/browsergpt-agent",
+  "title": "Browser Automation Agent by Nova (CIVAI)",
+  "description": "I do everything related to Browser Automation & Management",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/browsergpt-agent"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/browsergpt-agent",
+  "icons": [
+    {
+      "src": "https://nova.civai.co/brands/browsergpt-logo-teal.png"
+    }
+  ]
+}

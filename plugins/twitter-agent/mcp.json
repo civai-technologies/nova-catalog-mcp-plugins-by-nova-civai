@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "twitter-agent-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/twitter-agent",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "telegram-agent-by-nova",
+  "version": "1.0.0",
+  "description": "I use your linked Telegram MTProto session (Integrations \u2192 Telegram) to list groups, members, and send DMs",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/telegram-agent",
+  "repository": "https://github.com/civai-technologies/telegram-agent-mcp-by-nova-civai",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "mcp",
+    "nova-by-civai",
+    "civai",
+    "cursor",
+    "mcp-server",
+    "telegram",
+    "messaging",
+    "mtproto"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "NOVA_API_KEY": {
+        "type": "string",
+        "title": "Nova API key",
+        "description": "Programmatic JWT from https://nova.civai.co/api-keys"
+      }
+    },
+    "required": [
+      "NOVA_API_KEY"
+    ]
+  }
+}

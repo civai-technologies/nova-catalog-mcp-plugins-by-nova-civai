@@ -1,0 +1,35 @@
+{
+  "name": "google-sheets-agent-by-nova",
+  "version": "1.0.0",
+  "description": "I do everything related to Google Sheets",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/google-sheets-agent",
+  "repository": "https://github.com/civai-technologies/google-sheets-agent-mcp-by-nova-civai",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "mcp",
+    "nova-by-civai",
+    "civai",
+    "cursor",
+    "mcp-server",
+    "google-sheets",
+    "spreadsheets"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "NOVA_API_KEY": {
+        "type": "string",
+        "title": "Nova API key",
+        "description": "Programmatic JWT from https://nova.civai.co/api-keys"
+      }
+    },
+    "required": [
+      "NOVA_API_KEY"
+    ]
+  }
+}

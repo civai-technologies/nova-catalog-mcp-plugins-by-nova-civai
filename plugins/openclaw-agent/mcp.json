@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "openclaw-agent-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/openclaw-agent",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}
