@@ -1,0 +1,13 @@
+{
+  "name": "instagram-web-agent",
+  "version": "1.0.0",
+  "description": "I use your Instagram Web browser session (Integrations \u2192 Instagram Web) via instagrapi, not Meta / Graph API",
+  "mcpServers": {
+    "instagram-web-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/instagram-web-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

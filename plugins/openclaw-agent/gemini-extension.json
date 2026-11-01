@@ -1,0 +1,13 @@
+{
+  "name": "openclaw-agent",
+  "version": "1.0.0",
+  "description": "I execute requests through OpenClaw as a personal AI agent with persistent context, browser and shell tools, web access, messaging, sessions, and plugin/skill extensions",
+  "mcpServers": {
+    "openclaw-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/openclaw-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

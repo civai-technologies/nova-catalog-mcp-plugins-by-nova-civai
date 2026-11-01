@@ -1,0 +1,13 @@
+{
+  "name": "research-agent",
+  "version": "1.0.0",
+  "description": "I do everything related to research and reports",
+  "mcpServers": {
+    "research-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/research-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

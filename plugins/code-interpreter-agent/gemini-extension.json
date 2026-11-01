@@ -1,0 +1,13 @@
+{
+  "name": "code-interpreter-agent",
+  "version": "1.0.0",
+  "description": "I do everything related to coding and execution tasks",
+  "mcpServers": {
+    "code-interpreter-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/code-interpreter-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

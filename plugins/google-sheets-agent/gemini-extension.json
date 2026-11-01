@@ -1,0 +1,13 @@
+{
+  "name": "google-sheets-agent",
+  "version": "1.0.0",
+  "description": "I do everything related to Google Sheets",
+  "mcpServers": {
+    "google-sheets-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/google-sheets-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

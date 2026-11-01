@@ -1,0 +1,13 @@
+{
+  "name": "calendar-agent",
+  "version": "1.0.0",
+  "description": "I do everything related to calendar scheduling",
+  "mcpServers": {
+    "calendar-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/calendar-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

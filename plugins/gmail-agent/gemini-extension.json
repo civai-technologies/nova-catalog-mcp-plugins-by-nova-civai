@@ -1,0 +1,13 @@
+{
+  "name": "gmail-agent",
+  "version": "1.0.0",
+  "description": "I do everything related to Gmail and productivity",
+  "mcpServers": {
+    "gmail-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/gmail-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

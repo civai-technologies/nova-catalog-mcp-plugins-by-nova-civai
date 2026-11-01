@@ -1,0 +1,13 @@
+{
+  "name": "twitter-agent",
+  "version": "1.0.0",
+  "description": "I do everything related to Twitter posting and campaigns",
+  "mcpServers": {
+    "twitter-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/twitter-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "content-calendar-agent",
+  "version": "1.0.0",
+  "description": "I create markdown content calendars and export them as PDFs via PDF Generator MCP",
+  "mcpServers": {
+    "content-calendar-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/content-calendar-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

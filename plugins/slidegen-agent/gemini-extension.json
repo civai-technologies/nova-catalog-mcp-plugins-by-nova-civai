@@ -1,0 +1,13 @@
+{
+  "name": "slidegen-agent",
+  "version": "1.0.0",
+  "description": "I do everything related to image and slide asset generation",
+  "mcpServers": {
+    "slidegen-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/slidegen-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

@@ -46,17 +46,28 @@ Add to `~/.cursor/mcp.json`:
 
 ## Claude Code
 
+Install as a plugin from the Nova marketplace, which prompts for your API key on first enable:
+
+```bash
+/plugin marketplace add civai-technologies/nova-catalog-mcp-plugins-by-nova-civai
+/plugin install leads-discovery-agent-by-nova --marketplace civai-technologies/nova-catalog-mcp-plugins-by-nova-civai
+```
+
+Or add the MCP server directly:
+
 ```bash
 claude mcp add --transport http leads-discovery-agent-by-nova \
   https://nova.civai.co/mcp/agents/leads-discovery-agent \
   --header "Authorization: Bearer $NOVA_API_KEY"
 ```
 
+Setting this up on someone's behalf? [`llms-install.md`](./llms-install.md) is written for that.
+
 ## Transport
 
 - **Type:** Streamable HTTP (stateless)
 - **Auth:** Bearer JWT or `X-API-Key` header
-- **Tools:** 16 (bundled catalog)
+- **Tools:** 22 (bundled catalog)
 
 ## About Nova by CIVAI
 

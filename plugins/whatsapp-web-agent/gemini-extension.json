@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-web-agent",
+  "version": "1.0.0",
+  "description": "I send and manage WhatsApp Web messages through your linked session",
+  "mcpServers": {
+    "whatsapp-web-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/whatsapp-web-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

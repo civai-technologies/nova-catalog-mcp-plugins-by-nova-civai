@@ -1,0 +1,13 @@
+{
+  "name": "pdf-agent",
+  "version": "1.0.0",
+  "description": "I create PDF documents from markdown, preview, then generate a downloadable file",
+  "mcpServers": {
+    "pdf-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/pdf-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

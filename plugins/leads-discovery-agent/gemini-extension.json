@@ -1,0 +1,13 @@
+{
+  "name": "leads-discovery-agent",
+  "version": "1.0.0",
+  "description": "I discover new leads from WhatsApp/Telegram groups, Instagram post commenters, and X thread repliers, then import them into your Support Agent CRM",
+  "mcpServers": {
+    "leads-discovery-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/leads-discovery-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "content-pipeline-agent",
+  "version": "1.0.0",
+  "description": "I run the Content Pipeline for your Nova products, scan trends, expand seeds into opportunities, generate drafts, publish to your configured destination, and submit for indexing",
+  "mcpServers": {
+    "content-pipeline-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/content-pipeline-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

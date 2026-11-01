@@ -35,6 +35,11 @@
       "description": "I create markdown content calendars and export them as PDFs via PDF Generator MCP"
     },
     {
+      "name": "content-pipeline-agent-by-nova",
+      "source": "./plugins/content-pipeline-agent",
+      "description": "I run the Content Pipeline for your Nova products, scan trends, expand seeds into opportunities, generate drafts, publish to your configured destination, and submit for indexing"
+    },
+    {
       "name": "gmail-agent-by-nova",
       "source": "./plugins/gmail-agent",
       "description": "I do everything related to Gmail and productivity"
@@ -83,6 +88,11 @@
       "name": "pdf-agent-by-nova",
       "source": "./plugins/pdf-agent",
       "description": "I create PDF documents from markdown, preview, then generate a downloadable file"
+    },
+    {
+      "name": "product-admin-by-nova",
+      "source": "./plugins/product-admin",
+      "description": "I manage your Nova products, create/update/delete, payment & logistics config, icons, webhook secrets, bank-transfer onboarding, and deposit/bank-credit reconciliation"
     },
     {
       "name": "research-agent-by-nova",

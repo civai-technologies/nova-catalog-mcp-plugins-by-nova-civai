@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/content-pipeline-agent",
+  "title": "Content Pipeline Agent by Nova (CIVAI)",
+  "description": "I run the Content Pipeline for your Nova products — scan trends, expand seeds, generate drafts, publish, and submit for indexing.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/content-pipeline-agent"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/content-pipeline-agent",
+  "icons": [
+    { "src": "https://nova.civai.co/catalog-icons/BloggerIcon.svg" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "blogger-agent",
+  "version": "1.0.0",
+  "description": "I do everything related to Google Blogger content",
+  "mcpServers": {
+    "blogger-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/blogger-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

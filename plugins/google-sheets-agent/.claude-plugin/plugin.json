@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "google-sheets-agent-by-nova",
+  "displayName": "Google Sheets Agent by Nova (CIVAI)",
+  "version": "1.0.0",
+  "description": "I do everything related to Google Sheets",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co",
+    "url": "https://nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/google-sheets-agent",
+  "repository": "https://github.com/civai-technologies/google-sheets-agent-mcp-by-nova-civai",
+  "license": "MIT",
+  "keywords": [
+    "google-sheets",
+    "spreadsheets"
+  ],
+  "icon": "./assets/logo.svg",
+  "documentationUrl": "https://nova.civai.co/agent/google-sheets-agent",
+  "supportUrl": "https://nova.civai.co/api-keys",
+  "privacyPolicyUrl": "https://nova.civai.co/privacy",
+  "termsOfServiceUrl": "https://nova.civai.co/terms",
+  "userConfig": {
+    "nova_api_key": {
+      "type": "string",
+      "title": "Nova API key",
+      "description": "Programmatic Nova API key from https://nova.civai.co/api-keys",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "google-sheets-agent-by-nova": {
+      "type": "http",
+      "url": "https://nova.civai.co/mcp/agents/google-sheets-agent",
+      "headers": {
+        "Authorization": "Bearer ${user_config.nova_api_key}"
+      }
+    }
+  }
+}

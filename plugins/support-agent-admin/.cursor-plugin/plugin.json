@@ -34,5 +34,8 @@
     "required": [
       "NOVA_API_KEY"
     ]
-  }
+  },
+  "skills": [
+    "skills/support-agent-admin"
+  ]
 }

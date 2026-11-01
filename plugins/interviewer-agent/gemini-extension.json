@@ -1,0 +1,13 @@
+{
+  "name": "interviewer-agent",
+  "version": "1.0.0",
+  "description": "I do everything related to interviews and structured Q&A",
+  "mcpServers": {
+    "interviewer-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/interviewer-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

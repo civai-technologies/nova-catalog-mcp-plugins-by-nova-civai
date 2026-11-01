@@ -1,0 +1,13 @@
+{
+  "name": "telegram-agent",
+  "version": "1.0.0",
+  "description": "I use your linked Telegram MTProto session (Integrations \u2192 Telegram) to list groups, members, and send DMs",
+  "mcpServers": {
+    "telegram-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/telegram-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

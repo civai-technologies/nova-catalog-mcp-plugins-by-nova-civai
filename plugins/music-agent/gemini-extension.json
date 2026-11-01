@@ -1,0 +1,13 @@
+{
+  "name": "music-agent",
+  "version": "1.0.0",
+  "description": "I do everything related to music and lyrics",
+  "mcpServers": {
+    "music-agent-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/music-agent",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}
