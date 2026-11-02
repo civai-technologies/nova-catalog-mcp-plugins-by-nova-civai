@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-llm-scraper-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-llm-scraper",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

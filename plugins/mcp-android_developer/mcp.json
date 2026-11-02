@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-android-developer-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-android_developer",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

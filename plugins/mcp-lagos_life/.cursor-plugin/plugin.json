@@ -1,0 +1,34 @@
+{
+  "name": "mcp-lagos-life-by-nova",
+  "version": "1.0.0",
+  "description": "Play Lagos Life from chat: sign in, see who is on the map, read and send Phone DMs, check daily rewards, and peek at the Forbes rich list, like having a friend help you in the game.",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/mcp-lagos_life",
+  "repository": "https://github.com/civai-technologies/mcp-lagos_life-mcp-by-nova-civai",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "mcp",
+    "nova-by-civai",
+    "civai",
+    "cursor",
+    "mcp-server",
+    "lagos-life"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "NOVA_API_KEY": {
+        "type": "string",
+        "title": "Nova API key",
+        "description": "Programmatic JWT from https://nova.civai.co/api-keys"
+      }
+    },
+    "required": [
+      "NOVA_API_KEY"
+    ]
+  }
+}

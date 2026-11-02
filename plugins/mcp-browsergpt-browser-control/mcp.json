@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-browsergpt-browser-control-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-browsergpt-browser-control",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "mcp-apple-ads-by-nova",
+  "displayName": "Apple Search Ads MCP by Nova (CIVAI)",
+  "version": "1.0.0",
+  "description": "Manage Apple Search Ads from chat: sign in with Apple ID, check notifications, and pull campaign performance without opening the Ads console for every question.",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co",
+    "url": "https://nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/mcp-apple_ads",
+  "repository": "https://github.com/civai-technologies/mcp-apple_ads-mcp-by-nova-civai",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "apple_ads"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://nova.civai.co/agent/mcp-apple_ads",
+  "supportUrl": "https://nova.civai.co/api-keys",
+  "privacyPolicyUrl": "https://nova.civai.co/privacy",
+  "termsOfServiceUrl": "https://nova.civai.co/terms",
+  "userConfig": {
+    "nova_api_key": {
+      "type": "string",
+      "title": "Nova API key",
+      "description": "Programmatic Nova API key from https://nova.civai.co/api-keys",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "mcp-apple-ads-by-nova": {
+      "type": "http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-apple_ads",
+      "headers": {
+        "Authorization": "Bearer ${user_config.nova_api_key}"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-juicyway-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-juicyway",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

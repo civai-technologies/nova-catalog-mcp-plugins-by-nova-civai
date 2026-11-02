@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/mcp-juicyway",
+  "title": "Juicyway by Nova (CIVAI)",
+  "description": "Manage your Juicyway business account from chat: check balances and movements, send bank payouts, v…",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-juicyway"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/mcp-juicyway",
+  "icons": [
+    {
+      "src": "https://app.juicyway.com/favicon.ico"
+    }
+  ]
+}

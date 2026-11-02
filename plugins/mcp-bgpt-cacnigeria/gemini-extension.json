@@ -1,0 +1,13 @@
+{
+  "name": "mcp-bgpt-cacnigeria",
+  "version": "1.0.0",
+  "description": "Look up Nigerian companies on the Corporate Affairs Commission register.",
+  "mcpServers": {
+    "mcp-bgpt-cacnigeria-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-bgpt-cacnigeria",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

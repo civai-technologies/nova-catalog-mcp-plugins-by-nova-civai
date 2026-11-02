@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/mcp-bgpt-instagram-android",
+  "title": "Instagram Mobile MCP by Nova (CIVAI)",
+  "description": "Instagram Direct, profiles, search, posts, comments, and likes via mobile API replay.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-instagram-android"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/mcp-bgpt-instagram-android",
+  "icons": [
+    {
+      "src": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://instagram.com&size=128"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-bgpt-chowdeck-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-chowdeck",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

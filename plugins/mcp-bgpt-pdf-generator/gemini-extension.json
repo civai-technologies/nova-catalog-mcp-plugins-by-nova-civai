@@ -1,0 +1,13 @@
+{
+  "name": "mcp-bgpt-pdf-generator",
+  "version": "1.0.0",
+  "description": "Create PDF documents from your request. Preview the content first, then download when ready.",
+  "mcpServers": {
+    "mcp-bgpt-pdf-generator-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-bgpt-pdf-generator",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

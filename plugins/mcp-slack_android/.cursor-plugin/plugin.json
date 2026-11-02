@@ -1,0 +1,34 @@
+{
+  "name": "mcp-slack-android-by-nova",
+  "version": "1.0.0",
+  "description": "Use Slack from chat: see channels, catch up on messages, post updates, and reply in threads in your signed-in workspace.",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/mcp-slack_android",
+  "repository": "https://github.com/civai-technologies/mcp-slack_android-mcp-by-nova-civai",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "mcp",
+    "nova-by-civai",
+    "civai",
+    "cursor",
+    "mcp-server",
+    "slack-android"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "NOVA_API_KEY": {
+        "type": "string",
+        "title": "Nova API key",
+        "description": "Programmatic JWT from https://nova.civai.co/api-keys"
+      }
+    },
+    "required": [
+      "NOVA_API_KEY"
+    ]
+  }
+}

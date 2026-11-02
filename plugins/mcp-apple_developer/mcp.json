@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-apple-developer-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-apple_developer",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

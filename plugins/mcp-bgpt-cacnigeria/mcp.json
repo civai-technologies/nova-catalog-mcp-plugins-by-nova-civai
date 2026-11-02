@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-bgpt-cacnigeria-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-cacnigeria",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

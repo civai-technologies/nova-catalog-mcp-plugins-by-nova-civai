@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin.json",
   "name": "nova-inbox-agent-by-nova",
   "displayName": "Nova Inbox Agent by Nova (CIVAI)",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Read and send mail from your Nova Inbox (@nova.civai.co) for OTPs, directory signups, and inbound messages",
   "author": {
     "name": "CIVAI TECHNOLOGIES",

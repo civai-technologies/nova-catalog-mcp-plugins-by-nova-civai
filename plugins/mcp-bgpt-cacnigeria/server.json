@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/mcp-bgpt-cacnigeria",
+  "title": "CAC Search MCP by Nova (CIVAI)",
+  "description": "Look up Nigerian companies on the Corporate Affairs Commission register.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-cacnigeria"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/mcp-bgpt-cacnigeria",
+  "icons": [
+    {
+      "src": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cac.gov.ng&size=128"
+    }
+  ]
+}

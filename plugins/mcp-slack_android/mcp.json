@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-slack-android-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-slack_android",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

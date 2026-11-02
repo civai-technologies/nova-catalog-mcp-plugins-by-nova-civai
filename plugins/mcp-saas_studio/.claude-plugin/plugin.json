@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "mcp-saas-studio-by-nova",
+  "displayName": "SaaS Studio by Nova (CIVAI)",
+  "version": "1.0.0",
+  "description": "Turn your website into plugins AI assistants can use. SaaS Studio records your product in a real browser, then you can finish setup, connect agents, and go live from chat or from studio.civai.co.",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co",
+    "url": "https://nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/mcp-saas_studio",
+  "repository": "https://github.com/civai-technologies/mcp-saas_studio-mcp-by-nova-civai",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "saas_studio"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://nova.civai.co/agent/mcp-saas_studio",
+  "supportUrl": "https://nova.civai.co/api-keys",
+  "privacyPolicyUrl": "https://nova.civai.co/privacy",
+  "termsOfServiceUrl": "https://nova.civai.co/terms",
+  "userConfig": {
+    "nova_api_key": {
+      "type": "string",
+      "title": "Nova API key",
+      "description": "Programmatic Nova API key from https://nova.civai.co/api-keys",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "mcp-saas-studio-by-nova": {
+      "type": "http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-saas_studio",
+      "headers": {
+        "Authorization": "Bearer ${user_config.nova_api_key}"
+      }
+    }
+  }
+}

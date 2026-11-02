@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "mcp-bgpt-clannit-by-nova",
+  "displayName": "Clannit MCP by Nova (CIVAI)",
+  "version": "1.0.0",
+  "description": "Create estate guest visit invites and read your Clannit notifications (including past invite codes and times).",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co",
+    "url": "https://nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/mcp-bgpt-clannit",
+  "repository": "https://github.com/civai-technologies/mcp-bgpt-clannit-mcp-by-nova-civai",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "bgpt",
+    "clannit"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://nova.civai.co/agent/mcp-bgpt-clannit",
+  "supportUrl": "https://nova.civai.co/api-keys",
+  "privacyPolicyUrl": "https://nova.civai.co/privacy",
+  "termsOfServiceUrl": "https://nova.civai.co/terms",
+  "userConfig": {
+    "nova_api_key": {
+      "type": "string",
+      "title": "Nova API key",
+      "description": "Programmatic Nova API key from https://nova.civai.co/api-keys",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "mcp-bgpt-clannit-by-nova": {
+      "type": "http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-clannit",
+      "headers": {
+        "Authorization": "Bearer ${user_config.nova_api_key}"
+      }
+    }
+  }
+}

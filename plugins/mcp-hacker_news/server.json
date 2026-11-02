@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/mcp-hacker_news",
+  "title": "Hacker News MCP by Nova (CIVAI)",
+  "description": "Browse Hacker News from chat: top stories, search, read comment threads, and post or upvote when yo…",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-hacker_news"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/mcp-hacker_news",
+  "icons": [
+    {
+      "src": "https://news.ycombinator.com/y18.svg"
+    }
+  ]
+}

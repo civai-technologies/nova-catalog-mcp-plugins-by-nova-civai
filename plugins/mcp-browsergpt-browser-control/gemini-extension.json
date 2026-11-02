@@ -1,0 +1,13 @@
+{
+  "name": "mcp-browsergpt-browser-control",
+  "version": "1.0.0",
+  "description": "Control your Chrome from chat: open websites, read what's on the page, click buttons, and fill in forms. Works with the BrowserGPT extension on your computer, or a cloud browser if you prefer.",
+  "mcpServers": {
+    "mcp-browsergpt-browser-control-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-browsergpt-browser-control",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

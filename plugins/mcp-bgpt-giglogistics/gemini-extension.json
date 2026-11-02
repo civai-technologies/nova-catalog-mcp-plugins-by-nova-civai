@@ -1,0 +1,13 @@
+{
+  "name": "mcp-bgpt-giglogistics",
+  "version": "1.0.0",
+  "description": "Track your Gig Logistics parcels and shipments.",
+  "mcpServers": {
+    "mcp-bgpt-giglogistics-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-bgpt-giglogistics",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

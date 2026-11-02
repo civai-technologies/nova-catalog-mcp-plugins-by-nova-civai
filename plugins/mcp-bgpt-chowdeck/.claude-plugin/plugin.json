@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "mcp-bgpt-chowdeck-by-nova",
+  "displayName": "ChowDeck MCP by Nova (CIVAI)",
+  "version": "1.0.0",
+  "description": "Order food on ChowDeck: browse restaurants, set your delivery address, build a cart, and check out when you are ready.",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co",
+    "url": "https://nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/mcp-bgpt-chowdeck",
+  "repository": "https://github.com/civai-technologies/mcp-bgpt-chowdeck-mcp-by-nova-civai",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "bgpt",
+    "chowdeck"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://nova.civai.co/agent/mcp-bgpt-chowdeck",
+  "supportUrl": "https://nova.civai.co/api-keys",
+  "privacyPolicyUrl": "https://nova.civai.co/privacy",
+  "termsOfServiceUrl": "https://nova.civai.co/terms",
+  "userConfig": {
+    "nova_api_key": {
+      "type": "string",
+      "title": "Nova API key",
+      "description": "Programmatic Nova API key from https://nova.civai.co/api-keys",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "mcp-bgpt-chowdeck-by-nova": {
+      "type": "http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-chowdeck",
+      "headers": {
+        "Authorization": "Bearer ${user_config.nova_api_key}"
+      }
+    }
+  }
+}

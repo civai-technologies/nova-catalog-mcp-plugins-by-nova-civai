@@ -1,0 +1,13 @@
+{
+  "name": "mcp-linear",
+  "version": "1.0.0",
+  "description": "Issues, projects, cycles, and roadmaps via the official Linear hosted MCP server.",
+  "mcpServers": {
+    "mcp-linear-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-linear",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

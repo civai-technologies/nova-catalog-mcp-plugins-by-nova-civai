@@ -1,0 +1,13 @@
+{
+  "name": "mcp-hacker_news",
+  "version": "1.0.0",
+  "description": "Browse Hacker News from chat: top stories, search, read comment threads, and post or upvote when you are signed in.",
+  "mcpServers": {
+    "mcp-hacker-news-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-hacker_news",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

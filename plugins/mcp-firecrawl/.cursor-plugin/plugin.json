@@ -1,0 +1,34 @@
+{
+  "name": "mcp-firecrawl-by-nova",
+  "version": "1.0.0",
+  "description": "Scrape, crawl, and search the web via Firecrawl\u2019s official hosted MCP.",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/mcp-firecrawl",
+  "repository": "https://github.com/civai-technologies/mcp-firecrawl-mcp-by-nova-civai",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "mcp",
+    "nova-by-civai",
+    "civai",
+    "cursor",
+    "mcp-server",
+    "firecrawl"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "NOVA_API_KEY": {
+        "type": "string",
+        "title": "Nova API key",
+        "description": "Programmatic JWT from https://nova.civai.co/api-keys"
+      }
+    },
+    "required": [
+      "NOVA_API_KEY"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "mcp-android-developer-by-nova",
+  "displayName": "Android Developer MCP by Nova (CIVAI)",
+  "version": "1.0.0",
+  "description": "Ship a new Android app from chat. AI runs Google Play Console listings, screenshots, releases, uploads, and reviews.",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co",
+    "url": "https://nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/mcp-android_developer",
+  "repository": "https://github.com/civai-technologies/mcp-android_developer-mcp-by-nova-civai",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "android_developer"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://nova.civai.co/agent/mcp-android_developer",
+  "supportUrl": "https://nova.civai.co/api-keys",
+  "privacyPolicyUrl": "https://nova.civai.co/privacy",
+  "termsOfServiceUrl": "https://nova.civai.co/terms",
+  "userConfig": {
+    "nova_api_key": {
+      "type": "string",
+      "title": "Nova API key",
+      "description": "Programmatic Nova API key from https://nova.civai.co/api-keys",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "mcp-android-developer-by-nova": {
+      "type": "http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-android_developer",
+      "headers": {
+        "Authorization": "Bearer ${user_config.nova_api_key}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "mcp-bgpt-cardpeer",
+  "version": "1.0.0",
+  "description": "Find trading cards, compare listings, and check market prices.",
+  "mcpServers": {
+    "mcp-bgpt-cardpeer-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-bgpt-cardpeer",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

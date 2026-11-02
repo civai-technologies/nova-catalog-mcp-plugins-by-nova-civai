@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/mcp-firecrawl",
+  "title": "Firecrawl by Nova (CIVAI)",
+  "description": "Scrape, crawl, and search the web via Firecrawl’s official hosted MCP.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-firecrawl"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/mcp-firecrawl",
+  "icons": [
+    {
+      "src": "https://nova.civai.co/catalog-icons/FireIcon.svg"
+    }
+  ]
+}

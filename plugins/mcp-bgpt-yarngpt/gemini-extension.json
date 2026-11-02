@@ -1,0 +1,13 @@
+{
+  "name": "mcp-bgpt-yarngpt",
+  "version": "1.0.0",
+  "description": "Turn text into speech with Nigerian and African-accented voices.",
+  "mcpServers": {
+    "mcp-bgpt-yarngpt-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-bgpt-yarngpt",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

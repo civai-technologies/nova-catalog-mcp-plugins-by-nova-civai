@@ -1,0 +1,13 @@
+{
+  "name": "mcp-apple_developer",
+  "version": "1.0.0",
+  "description": "Ship a new iOS app from chat. AI runs App Store Connect, builds, release, and submission through Apple review end to end.",
+  "mcpServers": {
+    "mcp-apple-developer-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-apple_developer",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

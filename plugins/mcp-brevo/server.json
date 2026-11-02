@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/mcp-brevo",
+  "title": "Brevo by Nova (CIVAI)",
+  "description": "Campaigns, contacts, and CRM via Brevo’s official MCP.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-brevo"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/mcp-brevo",
+  "icons": [
+    {
+      "src": "https://nova.civai.co/catalog-icons/NoteIcon.svg"
+    }
+  ]
+}

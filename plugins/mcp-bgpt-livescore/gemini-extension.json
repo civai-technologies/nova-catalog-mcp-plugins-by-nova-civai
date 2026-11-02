@@ -1,0 +1,13 @@
+{
+  "name": "mcp-bgpt-livescore",
+  "version": "1.0.0",
+  "description": "Live football scores, fixtures, teams, and players.",
+  "mcpServers": {
+    "mcp-bgpt-livescore-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-bgpt-livescore",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

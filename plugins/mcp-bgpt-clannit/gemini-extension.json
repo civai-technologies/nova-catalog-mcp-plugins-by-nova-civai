@@ -1,0 +1,13 @@
+{
+  "name": "mcp-bgpt-clannit",
+  "version": "1.0.0",
+  "description": "Create estate guest visit invites and read your Clannit notifications (including past invite codes and times).",
+  "mcpServers": {
+    "mcp-bgpt-clannit-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-bgpt-clannit",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

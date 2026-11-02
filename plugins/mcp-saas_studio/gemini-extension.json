@@ -1,0 +1,13 @@
+{
+  "name": "mcp-saas_studio",
+  "version": "1.0.0",
+  "description": "Turn your website into plugins AI assistants can use. SaaS Studio records your product in a real browser, then you can finish setup, connect agents, and go live from chat or from studio.civai.co.",
+  "mcpServers": {
+    "mcp-saas-studio-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-saas_studio",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

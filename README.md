@@ -1,6 +1,6 @@
 # Nova by CIVAI plugin marketplace
 
-Official multi-plugin marketplace for **24** Nova catalog MCP agents, for both Cursor and Claude Code.
+Official multi-plugin marketplace for **51** Nova catalog MCP agents, for both Cursor and Claude Code.
 
 Each plugin folder contains `.cursor-plugin/plugin.json`, `.claude-plugin/plugin.json`, `mcp.json`, `llms-install.md`, and `assets/logo.*`.
 

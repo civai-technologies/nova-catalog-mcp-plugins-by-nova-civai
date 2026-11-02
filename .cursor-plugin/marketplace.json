@@ -70,6 +70,141 @@
       "description": "I discover new leads from WhatsApp/Telegram groups, Instagram post commenters, and X thread repliers, then import them into your Support Agent CRM"
     },
     {
+      "name": "mcp-android-developer-by-nova",
+      "source": "./plugins/mcp-android_developer",
+      "description": "Ship a new Android app from chat. AI runs Google Play Console listings, screenshots, releases, uploads, and reviews."
+    },
+    {
+      "name": "mcp-apple-ads-by-nova",
+      "source": "./plugins/mcp-apple_ads",
+      "description": "Manage Apple Search Ads from chat: sign in with Apple ID, check notifications, and pull campaign performance without opening the Ads console for every question."
+    },
+    {
+      "name": "mcp-apple-developer-by-nova",
+      "source": "./plugins/mcp-apple_developer",
+      "description": "Ship a new iOS app from chat. AI runs App Store Connect, builds, release, and submission through Apple review end to end."
+    },
+    {
+      "name": "mcp-audience-resolver-by-nova",
+      "source": "./plugins/mcp-audience-resolver",
+      "description": "Manage Audience Resolver content calendars, rows, and social scheduling on your AR project."
+    },
+    {
+      "name": "mcp-bgpt-cacnigeria-by-nova",
+      "source": "./plugins/mcp-bgpt-cacnigeria",
+      "description": "Look up Nigerian companies on the Corporate Affairs Commission register."
+    },
+    {
+      "name": "mcp-bgpt-cardpeer-by-nova",
+      "source": "./plugins/mcp-bgpt-cardpeer",
+      "description": "Find trading cards, compare listings, and check market prices."
+    },
+    {
+      "name": "mcp-bgpt-chowdeck-by-nova",
+      "source": "./plugins/mcp-bgpt-chowdeck",
+      "description": "Order food on ChowDeck: browse restaurants, set your delivery address, build a cart, and check out when you are ready."
+    },
+    {
+      "name": "mcp-bgpt-clannit-by-nova",
+      "source": "./plugins/mcp-bgpt-clannit",
+      "description": "Create estate guest visit invites and read your Clannit notifications (including past invite codes and times)."
+    },
+    {
+      "name": "mcp-bgpt-giglogistics-by-nova",
+      "source": "./plugins/mcp-bgpt-giglogistics",
+      "description": "Track your Gig Logistics parcels and shipments."
+    },
+    {
+      "name": "mcp-bgpt-instagram-android-by-nova",
+      "source": "./plugins/mcp-bgpt-instagram-android",
+      "description": "Instagram Direct, profiles, search, posts, comments, and likes via mobile API replay."
+    },
+    {
+      "name": "mcp-bgpt-jiji-recon-by-nova",
+      "source": "./plugins/mcp-bgpt-jiji-recon",
+      "description": "Search and buy on Jiji Nigeria, browse listings, message sellers, and manage your ads."
+    },
+    {
+      "name": "mcp-bgpt-livescore-by-nova",
+      "source": "./plugins/mcp-bgpt-livescore",
+      "description": "Live football scores, fixtures, teams, and players."
+    },
+    {
+      "name": "mcp-bgpt-pdf-generator-by-nova",
+      "source": "./plugins/mcp-bgpt-pdf-generator",
+      "description": "Create PDF documents from your request. Preview the content first, then download when ready."
+    },
+    {
+      "name": "mcp-bgpt-polymarket-by-nova",
+      "source": "./plugins/mcp-bgpt-polymarket",
+      "description": "Browse prediction markets, check odds, and follow big trades."
+    },
+    {
+      "name": "mcp-bgpt-tweet-downloader-by-nova",
+      "source": "./plugins/mcp-bgpt-tweet-downloader",
+      "description": "Get the text and download links from a public X post."
+    },
+    {
+      "name": "mcp-bgpt-yarngpt-by-nova",
+      "source": "./plugins/mcp-bgpt-yarngpt",
+      "description": "Turn text into speech with Nigerian and African-accented voices."
+    },
+    {
+      "name": "mcp-brevo-by-nova",
+      "source": "./plugins/mcp-brevo",
+      "description": "Campaigns, contacts, and CRM via Brevo\u2019s official MCP."
+    },
+    {
+      "name": "mcp-browsergpt-browser-control-by-nova",
+      "source": "./plugins/mcp-browsergpt-browser-control",
+      "description": "Control your Chrome from chat: open websites, read what's on the page, click buttons, and fill in forms. Works with the BrowserGPT extension on your computer, or a cloud browser if you prefer."
+    },
+    {
+      "name": "mcp-deep-research-by-nova",
+      "source": "./plugins/mcp-deep-research",
+      "description": "Iterative research with configurable depth and breadth for complex topics."
+    },
+    {
+      "name": "mcp-firecrawl-by-nova",
+      "source": "./plugins/mcp-firecrawl",
+      "description": "Scrape, crawl, and search the web via Firecrawl\u2019s official hosted MCP."
+    },
+    {
+      "name": "mcp-hacker-news-by-nova",
+      "source": "./plugins/mcp-hacker_news",
+      "description": "Browse Hacker News from chat: top stories, search, read comment threads, and post or upvote when you are signed in."
+    },
+    {
+      "name": "mcp-juicyway-by-nova",
+      "source": "./plugins/mcp-juicyway",
+      "description": "Manage your Juicyway business account from chat: check balances and movements, send bank payouts, view FX rates, and referrals, sign in once in the browser when prompted."
+    },
+    {
+      "name": "mcp-lagos-life-by-nova",
+      "source": "./plugins/mcp-lagos_life",
+      "description": "Play Lagos Life from chat: sign in, see who is on the map, read and send Phone DMs, check daily rewards, and peek at the Forbes rich list, like having a friend help you in the game."
+    },
+    {
+      "name": "mcp-linear-by-nova",
+      "source": "./plugins/mcp-linear",
+      "description": "Issues, projects, cycles, and roadmaps via the official Linear hosted MCP server."
+    },
+    {
+      "name": "mcp-llm-scraper-by-nova",
+      "source": "./plugins/mcp-llm-scraper",
+      "description": "Scrape websites by following links and extract structured data from natural language instructions."
+    },
+    {
+      "name": "mcp-saas-studio-by-nova",
+      "source": "./plugins/mcp-saas_studio",
+      "description": "Turn your website into plugins AI assistants can use. SaaS Studio records your product in a real browser, then you can finish setup, connect agents, and go live from chat or from studio.civai.co."
+    },
+    {
+      "name": "mcp-slack-android-by-nova",
+      "source": "./plugins/mcp-slack_android",
+      "description": "Use Slack from chat: see channels, catch up on messages, post updates, and reply in threads in your signed-in workspace."
+    },
+    {
       "name": "music-agent-by-nova",
       "source": "./plugins/music-agent",
       "description": "I do everything related to music and lyrics"

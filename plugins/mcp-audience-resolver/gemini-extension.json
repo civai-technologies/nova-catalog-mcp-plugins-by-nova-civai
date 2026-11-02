@@ -1,0 +1,13 @@
+{
+  "name": "mcp-audience-resolver",
+  "version": "1.0.0",
+  "description": "Manage Audience Resolver content calendars, rows, and social scheduling on your AR project.",
+  "mcpServers": {
+    "mcp-audience-resolver-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-audience-resolver",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

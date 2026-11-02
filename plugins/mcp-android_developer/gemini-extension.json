@@ -1,0 +1,13 @@
+{
+  "name": "mcp-android_developer",
+  "version": "1.0.0",
+  "description": "Ship a new Android app from chat. AI runs Google Play Console listings, screenshots, releases, uploads, and reviews.",
+  "mcpServers": {
+    "mcp-android-developer-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-android_developer",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "mcp-apple_ads",
+  "version": "1.0.0",
+  "description": "Manage Apple Search Ads from chat: sign in with Apple ID, check notifications, and pull campaign performance without opening the Ads console for every question.",
+  "mcpServers": {
+    "mcp-apple-ads-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-apple_ads",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

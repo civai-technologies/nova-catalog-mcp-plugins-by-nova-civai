@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-audience-resolver-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-audience-resolver",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-saas-studio-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-saas_studio",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

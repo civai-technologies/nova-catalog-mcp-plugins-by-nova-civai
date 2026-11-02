@@ -1,0 +1,13 @@
+{
+  "name": "mcp-bgpt-tweet-downloader",
+  "version": "1.0.0",
+  "description": "Get the text and download links from a public X post.",
+  "mcpServers": {
+    "mcp-bgpt-tweet-downloader-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-bgpt-tweet-downloader",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

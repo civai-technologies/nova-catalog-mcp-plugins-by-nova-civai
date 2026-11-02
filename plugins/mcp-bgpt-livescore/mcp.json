@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-bgpt-livescore-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-livescore",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@
     "email": "nifemialpine@nova.civai.co",
     "url": "https://nova.civai.co"
   },
-  "description": "Official Nova by CIVAI catalog: 24 remote Streamable HTTP MCP servers for research, documents, spreadsheets, email and messaging, browser automation, code execution, publishing and lead discovery.",
+  "description": "Official Nova by CIVAI catalog: 51 remote Streamable HTTP MCP servers for research, documents, spreadsheets, email and messaging, browser automation, code execution, publishing and lead discovery.",
   "version": "1.0.0",
   "plugins": [
     {
@@ -145,6 +145,330 @@
       "name": "leads-discovery-agent-by-nova",
       "source": "./plugins/leads-discovery-agent",
       "description": "I discover new leads from WhatsApp/Telegram groups, Instagram post commenters, and X thread repliers, then import them into your Support Agent CRM",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-android-developer-by-nova",
+      "source": "./plugins/mcp-android_developer",
+      "description": "Ship a new Android app from chat. AI runs Google Play Console listings, screenshots, releases, uploads, and reviews.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-apple-ads-by-nova",
+      "source": "./plugins/mcp-apple_ads",
+      "description": "Manage Apple Search Ads from chat: sign in with Apple ID, check notifications, and pull campaign performance without opening the Ads console for every question.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-apple-developer-by-nova",
+      "source": "./plugins/mcp-apple_developer",
+      "description": "Ship a new iOS app from chat. AI runs App Store Connect, builds, release, and submission through Apple review end to end.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-audience-resolver-by-nova",
+      "source": "./plugins/mcp-audience-resolver",
+      "description": "Manage Audience Resolver content calendars, rows, and social scheduling on your AR project.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-bgpt-cacnigeria-by-nova",
+      "source": "./plugins/mcp-bgpt-cacnigeria",
+      "description": "Look up Nigerian companies on the Corporate Affairs Commission register.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-bgpt-cardpeer-by-nova",
+      "source": "./plugins/mcp-bgpt-cardpeer",
+      "description": "Find trading cards, compare listings, and check market prices.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-bgpt-chowdeck-by-nova",
+      "source": "./plugins/mcp-bgpt-chowdeck",
+      "description": "Order food on ChowDeck: browse restaurants, set your delivery address, build a cart, and check out when you are ready.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-bgpt-clannit-by-nova",
+      "source": "./plugins/mcp-bgpt-clannit",
+      "description": "Create estate guest visit invites and read your Clannit notifications (including past invite codes and times).",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-bgpt-giglogistics-by-nova",
+      "source": "./plugins/mcp-bgpt-giglogistics",
+      "description": "Track your Gig Logistics parcels and shipments.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-bgpt-instagram-android-by-nova",
+      "source": "./plugins/mcp-bgpt-instagram-android",
+      "description": "Instagram Direct, profiles, search, posts, comments, and likes via mobile API replay.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-bgpt-jiji-recon-by-nova",
+      "source": "./plugins/mcp-bgpt-jiji-recon",
+      "description": "Search and buy on Jiji Nigeria, browse listings, message sellers, and manage your ads.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-bgpt-livescore-by-nova",
+      "source": "./plugins/mcp-bgpt-livescore",
+      "description": "Live football scores, fixtures, teams, and players.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-bgpt-pdf-generator-by-nova",
+      "source": "./plugins/mcp-bgpt-pdf-generator",
+      "description": "Create PDF documents from your request. Preview the content first, then download when ready.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-bgpt-polymarket-by-nova",
+      "source": "./plugins/mcp-bgpt-polymarket",
+      "description": "Browse prediction markets, check odds, and follow big trades.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-bgpt-tweet-downloader-by-nova",
+      "source": "./plugins/mcp-bgpt-tweet-downloader",
+      "description": "Get the text and download links from a public X post.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-bgpt-yarngpt-by-nova",
+      "source": "./plugins/mcp-bgpt-yarngpt",
+      "description": "Turn text into speech with Nigerian and African-accented voices.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-brevo-by-nova",
+      "source": "./plugins/mcp-brevo",
+      "description": "Campaigns, contacts, and CRM via Brevo\u2019s official MCP.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-browsergpt-browser-control-by-nova",
+      "source": "./plugins/mcp-browsergpt-browser-control",
+      "description": "Control your Chrome from chat: open websites, read what's on the page, click buttons, and fill in forms. Works with the BrowserGPT extension on your computer, or a cloud browser if you prefer.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-deep-research-by-nova",
+      "source": "./plugins/mcp-deep-research",
+      "description": "Iterative research with configurable depth and breadth for complex topics.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-firecrawl-by-nova",
+      "source": "./plugins/mcp-firecrawl",
+      "description": "Scrape, crawl, and search the web via Firecrawl\u2019s official hosted MCP.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-hacker-news-by-nova",
+      "source": "./plugins/mcp-hacker_news",
+      "description": "Browse Hacker News from chat: top stories, search, read comment threads, and post or upvote when you are signed in.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-juicyway-by-nova",
+      "source": "./plugins/mcp-juicyway",
+      "description": "Manage your Juicyway business account from chat: check balances and movements, send bank payouts, view FX rates, and referrals, sign in once in the browser when prompted.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-lagos-life-by-nova",
+      "source": "./plugins/mcp-lagos_life",
+      "description": "Play Lagos Life from chat: sign in, see who is on the map, read and send Phone DMs, check daily rewards, and peek at the Forbes rich list, like having a friend help you in the game.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-linear-by-nova",
+      "source": "./plugins/mcp-linear",
+      "description": "Issues, projects, cycles, and roadmaps via the official Linear hosted MCP server.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-llm-scraper-by-nova",
+      "source": "./plugins/mcp-llm-scraper",
+      "description": "Scrape websites by following links and extract structured data from natural language instructions.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-saas-studio-by-nova",
+      "source": "./plugins/mcp-saas_studio",
+      "description": "Turn your website into plugins AI assistants can use. SaaS Studio records your product in a real browser, then you can finish setup, connect agents, and go live from chat or from studio.civai.co.",
+      "category": "mcp",
+      "tags": [
+        "mcp",
+        "nova-by-civai",
+        "remote-mcp",
+        "streamable-http"
+      ]
+    },
+    {
+      "name": "mcp-slack-android-by-nova",
+      "source": "./plugins/mcp-slack_android",
+      "description": "Use Slack from chat: see channels, catch up on messages, post updates, and reply in threads in your signed-in workspace.",
       "category": "mcp",
       "tags": [
         "mcp",

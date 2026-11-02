@@ -1,0 +1,13 @@
+{
+  "name": "mcp-llm-scraper",
+  "version": "1.0.0",
+  "description": "Scrape websites by following links and extract structured data from natural language instructions.",
+  "mcpServers": {
+    "mcp-llm-scraper-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-llm-scraper",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

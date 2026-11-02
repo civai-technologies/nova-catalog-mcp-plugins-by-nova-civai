@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/mcp-linear",
+  "title": "Linear by Nova (CIVAI)",
+  "description": "Issues, projects, cycles, and roadmaps via the official Linear hosted MCP server.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-linear"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/mcp-linear",
+  "icons": [
+    {
+      "src": "https://nova.civai.co/catalog-icons/CodeIcon.svg"
+    }
+  ]
+}

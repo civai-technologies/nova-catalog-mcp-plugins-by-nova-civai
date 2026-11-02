@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/mcp-bgpt-tweet-downloader",
+  "title": "Tweet Downloader MCP by Nova (CIVAI)",
+  "description": "Get the text and download links from a public X post.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-tweet-downloader"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/mcp-bgpt-tweet-downloader",
+  "icons": [
+    {
+      "src": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://x.com&size=128"
+    }
+  ]
+}

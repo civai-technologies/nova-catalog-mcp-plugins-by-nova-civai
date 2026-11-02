@@ -3,7 +3,7 @@
   "name": "co.civai.nova/nova-inbox-agent",
   "title": "Nova Inbox Agent by Nova (CIVAI)",
   "description": "Read and send mail from your Nova Inbox (@nova.civai.co) for OTPs, directory signups, and inbound m…",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "remotes": [
     {
       "type": "streamable-http",

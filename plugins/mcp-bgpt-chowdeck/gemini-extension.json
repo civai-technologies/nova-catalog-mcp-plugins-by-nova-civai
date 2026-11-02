@@ -1,0 +1,13 @@
+{
+  "name": "mcp-bgpt-chowdeck",
+  "version": "1.0.0",
+  "description": "Order food on ChowDeck: browse restaurants, set your delivery address, build a cart, and check out when you are ready.",
+  "mcpServers": {
+    "mcp-bgpt-chowdeck-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-bgpt-chowdeck",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

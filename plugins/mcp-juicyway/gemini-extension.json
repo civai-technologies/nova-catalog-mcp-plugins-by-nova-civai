@@ -1,0 +1,13 @@
+{
+  "name": "mcp-juicyway",
+  "version": "1.0.0",
+  "description": "Manage your Juicyway business account from chat: check balances and movements, send bank payouts, view FX rates, and referrals, sign in once in the browser when prompted.",
+  "mcpServers": {
+    "mcp-juicyway-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-juicyway",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

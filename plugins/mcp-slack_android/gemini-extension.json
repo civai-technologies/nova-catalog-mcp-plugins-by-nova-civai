@@ -1,0 +1,13 @@
+{
+  "name": "mcp-slack_android",
+  "version": "1.0.0",
+  "description": "Use Slack from chat: see channels, catch up on messages, post updates, and reply in threads in your signed-in workspace.",
+  "mcpServers": {
+    "mcp-slack-android-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-slack_android",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

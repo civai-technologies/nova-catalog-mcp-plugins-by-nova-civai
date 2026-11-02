@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/mcp-bgpt-livescore",
+  "title": "LiveScore MCP by Nova (CIVAI)",
+  "description": "Live football scores, fixtures, teams, and players.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-livescore"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/mcp-bgpt-livescore",
+  "icons": [
+    {
+      "src": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://livescore.com&size=128"
+    }
+  ]
+}

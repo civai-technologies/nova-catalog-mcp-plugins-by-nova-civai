@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-bgpt-cardpeer-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-cardpeer",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

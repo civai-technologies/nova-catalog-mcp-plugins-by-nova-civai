@@ -1,0 +1,13 @@
+{
+  "name": "mcp-deep-research",
+  "version": "1.0.0",
+  "description": "Iterative research with configurable depth and breadth for complex topics.",
+  "mcpServers": {
+    "mcp-deep-research-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-deep-research",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

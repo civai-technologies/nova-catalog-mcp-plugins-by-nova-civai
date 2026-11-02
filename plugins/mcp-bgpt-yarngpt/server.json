@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.civai.nova/mcp-bgpt-yarngpt",
+  "title": "YarnGPT MCP by Nova (CIVAI)",
+  "description": "Turn text into speech with Nigerian and African-accented voices.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-yarngpt"
+    }
+  ],
+  "websiteUrl": "https://nova.civai.co/agent/mcp-bgpt-yarngpt",
+  "icons": [
+    {
+      "src": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://yarngpt.com&size=128"
+    }
+  ]
+}

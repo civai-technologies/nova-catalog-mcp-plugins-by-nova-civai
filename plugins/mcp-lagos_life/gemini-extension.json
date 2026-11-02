@@ -1,0 +1,13 @@
+{
+  "name": "mcp-lagos_life",
+  "version": "1.0.0",
+  "description": "Play Lagos Life from chat: sign in, see who is on the map, read and send Phone DMs, check daily rewards, and peek at the Forbes rich list, like having a friend help you in the game.",
+  "mcpServers": {
+    "mcp-lagos-life-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-lagos_life",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "mcp-firecrawl",
+  "version": "1.0.0",
+  "description": "Scrape, crawl, and search the web via Firecrawl\u2019s official hosted MCP.",
+  "mcpServers": {
+    "mcp-firecrawl-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-firecrawl",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-linear-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-linear",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

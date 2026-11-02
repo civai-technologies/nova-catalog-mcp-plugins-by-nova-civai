@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-bgpt-tweet-downloader-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-tweet-downloader",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "mcp-bgpt-jiji-recon",
+  "version": "1.0.0",
+  "description": "Search and buy on Jiji Nigeria, browse listings, message sellers, and manage your ads.",
+  "mcpServers": {
+    "mcp-bgpt-jiji-recon-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-bgpt-jiji-recon",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

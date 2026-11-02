@@ -1,0 +1,13 @@
+{
+  "name": "mcp-brevo",
+  "version": "1.0.0",
+  "description": "Campaigns, contacts, and CRM via Brevo\u2019s official MCP.",
+  "mcpServers": {
+    "mcp-brevo-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-brevo",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

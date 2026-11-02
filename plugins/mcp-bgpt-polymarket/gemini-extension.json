@@ -1,0 +1,13 @@
+{
+  "name": "mcp-bgpt-polymarket",
+  "version": "1.0.0",
+  "description": "Browse prediction markets, check odds, and follow big trades.",
+  "mcpServers": {
+    "mcp-bgpt-polymarket-by-nova": {
+      "httpUrl": "https://nova.civai.co/mcp/agents/mcp-bgpt-polymarket",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

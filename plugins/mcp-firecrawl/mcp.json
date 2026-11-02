@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-firecrawl-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-firecrawl",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

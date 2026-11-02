@@ -1,0 +1,34 @@
+{
+  "name": "mcp-apple-developer-by-nova",
+  "version": "1.0.0",
+  "description": "Ship a new iOS app from chat. AI runs App Store Connect, builds, release, and submission through Apple review end to end.",
+  "author": {
+    "name": "CIVAI TECHNOLOGIES",
+    "email": "nifemialpine@nova.civai.co"
+  },
+  "homepage": "https://nova.civai.co/agent/mcp-apple_developer",
+  "repository": "https://github.com/civai-technologies/mcp-apple_developer-mcp-by-nova-civai",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "mcp",
+    "nova-by-civai",
+    "civai",
+    "cursor",
+    "mcp-server",
+    "apple-developer"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "NOVA_API_KEY": {
+        "type": "string",
+        "title": "Nova API key",
+        "description": "Programmatic JWT from https://nova.civai.co/api-keys"
+      }
+    },
+    "required": [
+      "NOVA_API_KEY"
+    ]
+  }
+}

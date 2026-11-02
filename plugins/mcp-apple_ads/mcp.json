@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-apple-ads-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-apple_ads",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

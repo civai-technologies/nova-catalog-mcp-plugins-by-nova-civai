@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-bgpt-instagram-android-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-instagram-android",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

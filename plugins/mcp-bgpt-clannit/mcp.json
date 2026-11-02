@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-bgpt-clannit-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-clannit",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}

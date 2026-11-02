@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-bgpt-polymarket-by-nova": {
+      "url": "https://nova.civai.co/mcp/agents/mcp-bgpt-polymarket",
+      "headers": {
+        "Authorization": "Bearer ${NOVA_API_KEY}"
+      }
+    }
+  }
+}
